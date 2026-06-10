@@ -8,7 +8,7 @@ function Header() {
       <p className={styles.profissao}>Desenvolvedor Full Stack</p>
       <img
         className={styles.imagem}
-        src="src/assets/euAnimated.png.jpeg"
+        src="src/assets/euAnimated.jpeg"
         alt="foto de perfil"
       />
     </header>
