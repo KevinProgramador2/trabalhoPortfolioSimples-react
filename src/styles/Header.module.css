@@ -1,0 +1,50 @@
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+  width: 100%;
+  background-color: #b7b199;
+  border-radius: 14px;
+  padding: 32px;
+  box-sizing: border-box;
+}
+
+.nome {
+  color: aliceblue;
+  font-size: 3rem;
+  margin: 0 0 8px 0;
+  font-weight: 800;
+}
+
+.profissao {
+  color: aliceblue;
+  font-size: 1.8rem;
+  font-style: italic;
+  margin: 0;
+  opacity: 0.9;
+}
+
+.imagem {
+  height: 250px;
+  width: 250px;
+  border-radius: 50px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 600px) {
+  .headerContainer {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  .textoContainer {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1057px) {
+}

@@ -1,0 +1,41 @@
+.secaoCard {
+  width: 100%;
+  margin: 10px;
+  background-color: #292d1997;
+  border-left: 4px solid rgb(146, 131, 64);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgb(146, 131, 64);
+  max-width: 450px;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  font-family: sans-serif;
+}
+
+.secaoCard:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+.cargo {
+  color: aliceblue;
+}
+
+.descricao {
+  color: aliceblue;
+}
+
+.titulo {
+  margin: 0;
+  color: aliceblue;
+}
+
+.btnCard {
+  color: black;
+  text-decoration-line: none;
+  text-decoration: none;
+  background-color: aquamarine;
+  padding: 4px;
+  border-radius: 12px;
+}

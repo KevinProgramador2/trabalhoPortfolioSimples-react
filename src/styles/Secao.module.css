@@ -1,0 +1,14 @@
+.card {
+  width: 100%;
+  margin: 1rem;
+  background-color: #b7b199;
+  border-left: 3px solid rgb(146, 131, 64);
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgb(146, 131, 64);
+  max-width: 450px;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  font-family: sans-serif;
+}
